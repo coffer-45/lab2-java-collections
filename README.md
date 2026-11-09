@@ -18,3 +18,7 @@
 Залежності тестів (JUnit 5) задано через `gradle/libs.versions.toml`. Вихідний код розташований у `src/main/java/ua/kpi/comsys/collections/`, тести — у `src/test/java/ua/kpi/comsys/collections/`.
 
 Команда `./gradlew build` також перевіряє 100% покриття рядків і гілок класу `WordCounter`. HTML-звіт покриття створюється в `build/reports/jacoco/test/html/`.
+
+## Звіт
+
+Готовий звіт: [lab2.pdf](lab2.pdf). Вихідний файл — [lab2.typ](lab2.typ); для повторного створення PDF потрібен Typst: `typst compile lab2.typ lab2.pdf`. Файл `letterhead.png` використовується для титульної сторінки.
